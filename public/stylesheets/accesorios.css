@@ -1,0 +1,62 @@
+
+.hero {
+    background: url(/images/Header.jpg);
+    background-size: cover;
+    height: 30vh;
+    min-height: 500px;
+    color: white;
+}
+.separator {
+    margin-top: 50px; 
+}
+.product-image-container {
+    position: relative;
+    padding: 5px;
+
+}
+.overlay-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.mapa iframe {
+    width: 1200px; 
+    height: 300px; 
+    padding: 0;
+    display: flex;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2,h4 {
+    text-align: center;
+    text-justify: distribute;
+    font-size: x-large;
+    margin: 50px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.scroll_section {
+        scroll-margin-top: 60px;
+}
+
+
